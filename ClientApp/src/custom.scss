@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -9,4 +11,48 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+}
+
+header {
+  height: 50px;
+  border: 1px solid red;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  border: 1px solid green;
+  height: 50px;
+}
+
+header ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  border: 1px solid yellow;
+  font-family: 'Pacifico', 'arial', 'sans-serif';
+}
+
+.header-blank {
+  height: 50px;
+}
+
+.main-photo {
+  // background-color: red;
+  // background-image: url(./images/jarren-horrocks-nVFp3nTWAbA-unsplash.jpg);
+  height: auto;
+  width: 100vw;
+  border: 1px dotted purple;
+}
+
+.main-photo img {
+  width: 100vw;
 }
